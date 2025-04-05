@@ -1,4 +1,4 @@
-package com.techtornado.erggenerator.presentation
+package com.techtornado.esggenerator.presentation
 
 val instructions = """
 SYSTEM INSTRUCTIONS

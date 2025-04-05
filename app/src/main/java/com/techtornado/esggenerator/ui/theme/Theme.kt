@@ -1,6 +1,5 @@
-package com.techtornado.erggenerator.ui.theme
+package com.techtornado.esggenerator.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

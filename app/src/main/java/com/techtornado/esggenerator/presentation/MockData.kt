@@ -1,4 +1,4 @@
-package com.techtornado.erggenerator.presentation
+package com.techtornado.esggenerator.presentation
 
 val mockAnswers = listOf(
     // Environmental (E) - Climate Change & Emissions (20)

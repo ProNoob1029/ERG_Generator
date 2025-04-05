@@ -20,5 +20,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ERG Generator"
+rootProject.name = "ESG Generator"
 include(":app")

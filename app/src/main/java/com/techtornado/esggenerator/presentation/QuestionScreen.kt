@@ -1,4 +1,4 @@
-package com.techtornado.erggenerator.presentation
+package com.techtornado.esggenerator.presentation
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize

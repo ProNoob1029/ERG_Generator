@@ -1,4 +1,4 @@
-package com.techtornado.erggenerator.ui.theme
+package com.techtornado.esggenerator.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

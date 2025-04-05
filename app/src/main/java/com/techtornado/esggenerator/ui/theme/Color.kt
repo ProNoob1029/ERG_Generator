@@ -1,4 +1,4 @@
-package com.techtornado.erggenerator.ui.theme
+package com.techtornado.esggenerator.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

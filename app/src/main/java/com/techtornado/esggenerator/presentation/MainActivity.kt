@@ -1,4 +1,4 @@
-package com.techtornado.erggenerator.presentation
+package com.techtornado.esggenerator.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -7,7 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import com.techtornado.erggenerator.ui.theme.ERGGeneratorTheme
+import com.techtornado.esggenerator.ui.theme.ERGGeneratorTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

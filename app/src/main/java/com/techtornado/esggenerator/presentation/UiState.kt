@@ -1,4 +1,4 @@
-package com.techtornado.erggenerator.presentation
+package com.techtornado.esggenerator.presentation
 
 /**
  * A sealed hierarchy describing the state of the text generation.

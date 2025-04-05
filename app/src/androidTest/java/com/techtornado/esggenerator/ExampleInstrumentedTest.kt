@@ -1,4 +1,4 @@
-package com.techtornado.erggenerator
+package com.techtornado.esggenerator
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

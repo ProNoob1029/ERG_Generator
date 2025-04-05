@@ -1,4 +1,4 @@
-package com.techtornado.erggenerator
+package com.techtornado.esggenerator
 
 import org.junit.Test
 

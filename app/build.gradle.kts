@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.techtornado.erggenerator"
+    namespace = "com.techtornado.esggenerator"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.techtornado.erggenerator"
+        applicationId = "com.techtornado.esggenerator"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

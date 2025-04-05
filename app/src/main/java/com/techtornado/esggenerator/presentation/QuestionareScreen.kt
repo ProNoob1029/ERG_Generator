@@ -1,4 +1,4 @@
-package com.techtornado.erggenerator.presentation
+package com.techtornado.esggenerator.presentation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
