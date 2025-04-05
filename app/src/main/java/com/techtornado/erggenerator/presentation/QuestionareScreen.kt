@@ -1,4 +1,4 @@
-package com.techtornado.erggenerator
+package com.techtornado.erggenerator.presentation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -8,12 +8,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
-
-val questions = listOf(
-    "How many employees does the company have?",
-    "How much waste does the company produce in a year?",
-    "How much energy does the company produce in a year?"
-)
 
 @Composable
 fun QuestionareScreen(
@@ -30,10 +24,10 @@ fun QuestionareScreen(
 
     QuestionScreen(
         modifier = modifier,
-        question = questions[questionIndex],
+        questionAnswer = mockAnswers[questionIndex],
         onDone = {
-            answers.add(Answer(questions[questionIndex], it))
-            if (questionIndex >= questions.lastIndex) {
+            answers.add(it)
+            if (questionIndex >= mockAnswers.lastIndex) {
                 onDone(answers.toList())
             } else {
                 questionIndex++

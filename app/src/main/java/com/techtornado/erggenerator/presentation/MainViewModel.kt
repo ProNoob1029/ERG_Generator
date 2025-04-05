@@ -1,9 +1,11 @@
-package com.techtornado.erggenerator
+package com.techtornado.erggenerator.presentation
 
+import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.google.ai.client.generativeai.GenerativeModel
 import com.google.ai.client.generativeai.type.content
+import com.techtornado.erggenerator.BuildConfig
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -37,6 +39,7 @@ class MainViewModel : ViewModel() {
                     }
                 )
                 response.text?.let { outputContent ->
+                    Log.d("MainViewModel", outputContent)
                     _uiState.value = UiState.Success(outputContent)
                 }
             } catch (e: Exception) {

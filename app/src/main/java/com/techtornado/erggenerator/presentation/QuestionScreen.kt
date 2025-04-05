@@ -1,4 +1,4 @@
-package com.techtornado.erggenerator
+package com.techtornado.erggenerator.presentation
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -22,18 +22,18 @@ import androidx.compose.ui.tooling.preview.Preview
 @Composable
 fun QuestionScreen(
     modifier: Modifier = Modifier,
-    question: String = "Question",
-    onDone: (answer: String) -> Unit = {}
+    questionAnswer: Answer = Answer("Question", ""),
+    onDone: (answer: Answer) -> Unit = {}
 ) {
-    var answer by rememberSaveable {
-        mutableStateOf("")
+    var answer by rememberSaveable(questionAnswer) {
+        mutableStateOf(questionAnswer.answer)
     }
     Column(
         modifier = modifier
             .fillMaxSize()
             .imePadding()
     ) {
-        Text(question)
+        Text(questionAnswer.question)
         TextField(
             value = answer,
             onValueChange = { answer = it },
@@ -42,8 +42,7 @@ fun QuestionScreen(
         )
         FloatingActionButton (
             onClick = {
-                onDone(answer)
-                answer = ""
+                onDone(Answer(question = questionAnswer.question, answer))
                       },
             modifier = Modifier.align(Alignment.End)
         ) {

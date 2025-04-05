@@ -1,4 +1,4 @@
-package com.techtornado.erggenerator
+package com.techtornado.erggenerator.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

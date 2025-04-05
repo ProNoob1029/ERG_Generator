@@ -1,4 +1,4 @@
-package com.techtornado.erggenerator
+package com.techtornado.erggenerator.presentation
 
 data class Answer(
     val question: String,
